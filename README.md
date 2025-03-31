@@ -3,7 +3,7 @@
 
 ## Status atual
 
-No momento, o repositório está em fase de configuração. Em breve, os códigos e demais arquivos relacionados aos testes serão adicionados aqui.
+No momento, o repositório está em fase de desenvolvimento e foram concluídos os testes de Web Scraping, Transformação de dados e Banco de dados.
 
 ## Objetivo
 
@@ -19,4 +19,4 @@ Realizar os desafios propostos pela Intuitive Care com foco em boas práticas de
 
 ## Status do projeto
 
-Em configuração
+Em desenvolvimento
