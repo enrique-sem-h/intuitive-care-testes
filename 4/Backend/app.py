@@ -1,5 +1,6 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
+import re
 import pandas
 import unicodedata
 
@@ -13,10 +14,17 @@ CORS(app)
 def normalize(text):
     if not isinstance(text, str):
         return ''
-    return ''.join(
-        c for c in unicodedata.normalize('NFKD', text)
+    
+    # Remove accents
+    text = ''.join(
+        c for c in unicodedata.normalize('NFD', text)
         if not unicodedata.combining(c)
-    ).lower()
+    )
+    
+    # Remove special characters and spaces
+    text = re.sub(r'[^a-zA-Z0-9]', '', text)
+    
+    return text.lower()
 
 def getDataForTable():
     df = pandas.read_csv('data/Relatorio_cadop.csv', sep=';')

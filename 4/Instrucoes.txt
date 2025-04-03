@@ -1,5 +1,8 @@
-Olá, para o teste de API utilizei Flask, Flask-Cors e pandas para o backend com Python, abaixo seguem as instruções para ativar e configurar o ambiente virtual que rodará o código:
+Olá, para o teste de API utilizei Flask, Flask-Cors e pandas para o backend com Python e vue.js e babel para o frontend.
+Abaixo seguem as instruções para ativar e configurar o ambiente virtual que rodará o código:
 OBS: Os comandos listados aqui são os utilizados no mac
+
+-------- PARA O BACKEND:
 
 1. Abra o terminal e navegue até a pasta Backend
 comando: cd 4/Backend
@@ -17,3 +20,18 @@ comando: pip install -r requirements.txt
 comando: python3 app.py
 
 Pronto, o servidor Backend já está rodando, para pará-lo use o comando deactivate.
+
+-------- PARA O FRONTEND:
+
+1. Abra outro terminal e navegue até a pasta vue-project
+comando: cd 4/Frontend/vue-project
+
+2. Instale as dependências com npm install
+comando: npm install
+
+3. Ainda no diretório, inicie a aplicação
+comando: vue serve ou npm run serve
+
+4. Navegue até a porta (geralmente localhost:8080) e utilize a aplicação
+
+Se você seguiu os passos até aqui, você está pronto para usar a API.
