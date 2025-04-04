@@ -3,13 +3,13 @@
 
 ## Status atual
 
-No momento, o repositório está em fase de desenvolvimento e foram concluídos os testes de Web Scraping, Transformação de dados e Banco de dados.
+No momento, o repositório está Finalizado.
 
 ## Objetivo
 
 Realizar os desafios propostos pela Intuitive Care com foco em boas práticas de programação, organização de código e versionamento.
 
-## Tecnologias previstas
+## Tecnologias utilizadas
 
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
@@ -19,4 +19,4 @@ Realizar os desafios propostos pela Intuitive Care com foco em boas práticas de
 
 ## Status do projeto
 
-Em desenvolvimento
+Finalizado.
