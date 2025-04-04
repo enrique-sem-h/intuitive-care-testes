@@ -17,7 +17,7 @@ comando: source .venv/bin/activate
 comando: pip install -r requirements.txt
 
 5. Após configurado o ambiente virtual, rode o código
-comando: python3 app.py
+comando: python3 routes.py
 
 Pronto, o servidor Backend já está rodando, para pará-lo use o comando deactivate.
 
