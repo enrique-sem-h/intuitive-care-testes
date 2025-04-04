@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     async loadData() {
-      const path = 'http://localhost:5001/'
+      const path = 'http://localhost:5001/items'
       axios.get(path).then((res) => {
         this.tableContents = res.data;
       }).catch((error) => {
@@ -36,7 +36,7 @@ export default {
         this.loadData();
         return;
       }
-      const path = `http://localhost:5001/search:${this.formatSearchString(searchField)}`;
+      const path = `http://localhost:5001/items/search:${this.formatSearchString(searchField)}`;
       axios.get(path).then((res) => {
         this.tableContents = res.data;
       }).catch((error) => {

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Documentacao API</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>Essa API foi criada para o teste de API para a vaga de estagio na Intuitive Care</p>
+    <p>Atualmente conta com 2 endpoints</p>
+    <p>'/items' -> Retorna todos os itens da tabela de dados cadastrais das operadoras ativas na ANS</p>
+    <p>'/items/search:&lt;parametro&gt;' -> Retorna os itens mais relevantes da tabela para a pesquisa textual &lt;parametro&gt;</p>
+    <p>OBS: A busca retorna os itens em todas as colunas</p>
+</body>
+</html>
